@@ -1,0 +1,15 @@
+git add readme.txt
+git commit -m "wrote a readme file"
+
+git status
+git diff
+git reset --hard HEAD^
+git reflog
+
+git diff HEAD -- readme.txt
+git checkout -- readme.txt
+git reset HEAD readme.txt
+git rm test.txt
+
+git remote add origin git@server-name:path/repo-name.git
+
